@@ -2,7 +2,8 @@
 import React from "react";
 
 function Keypad (){
-    const change = () => {
+    const change = (e) => {
+        e.preventDefault();
         console.log('Entering password...')
     }
     return (
